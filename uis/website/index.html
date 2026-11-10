@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Nexova | Construimos equipos excepcionales</title>
+
+	<meta name="description" content="Nexova es una consultora de recursos humanos especializada en headhunting, outsourcing de atención al cliente y formación corporativa.">
+
+	<meta name="keywords" content="recursos humanos, headhunting, selección de talento, outsourcing, formación corporativa">
+
+	<meta name="author" content="Nexova">
+
+	<meta name="theme-color" content="#142B46">
+
+	<!-- Tailwind CSS -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						navy: "#142B46",
+						turquoise: "#20B8B0",
+						lightgray: "#F1F5F9"
+					},
+					fontFamily: {
+						sans: ["Inter", "sans-serif"]
+					}
+				}
+			}
+		}
+	</script>
+
+	<!-- Tipografía -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Schema.org -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Nexova",
+		"description": "Consultora de recursos humanos y adquisición de talento",
+		"url": "https://nexova.com",
+		"foundingDate": "2011",
+		"address": [
+			{
+				"@type": "PostalAddress",
+				"addressCountry": "ES",
+				"addressLocality": "Valencia",
+				"addressRegion": "Comunidad Valenciana"
+			},
+			{
+				"@type": "PostalAddress",
+				"addressCountry": "US",
+				"addressLocality": "Miami",
+				"addressRegion": "Florida"
+			}
+		],
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+34-960-123-456",
+			"contactType": "customer service",
+			"availableLanguage": ["Spanish", "English"]
+		},
+		"sameAs": [
+			"https://linkedin.com/company/nexova",
+			"https://instagram.com/nexova"
+		]
+	}
+	</script>
+</head>
+
+<body class="font-sans text-gray-700 bg-white">
+
+	<!-- HEADER -->
+	<header class="bg-white shadow-sm sticky top-0 z-50">
+		<nav class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center"
+			 aria-label="Navegación principal">
+
+			<a href="#inicio" class="text-3xl font-extrabold text-navy">
+				Nexova<span class="text-turquoise">.</span>
+			</a>
+
+			<ul class="hidden md:flex items-center gap-8 font-medium">
+				<li><a href="#inicio" class="hover:text-turquoise">Inicio</a></li>
+				<li><a href="#servicios" class="hover:text-turquoise">Servicios</a></li>
+				<li><a href="talento.html" class="hover:text-turquoise">Talento</a></li>
+				<li><a href="#contacto" class="hover:text-turquoise">Contacto</a></li>
+			</ul>
+
+			<a href="talento.html"
+			   class="bg-turquoise text-white px-5 py-3 rounded-lg font-semibold hover:bg-teal-600 transition">
+				Únete a Nexova
+			</a>
+		</nav>
+	</header>
+
+	<main>
+
+		<!-- HERO -->
+		<section id="inicio" class="bg-navy text-white">
+			<div class="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
+
+				<div>
+					<span class="text-turquoise font-semibold uppercase tracking-widest text-sm">
+						Talento que transforma empresas
+					</span>
+
+					<h1 class="text-4xl md:text-6xl font-extrabold leading-tight mt-5">
+						Construimos equipos excepcionales para empresas en crecimiento
+					</h1>
+
+					<p class="text-gray-300 text-lg mt-6 leading-relaxed">
+						Consultora de recursos humanos y adquisición de talento con más de 10 años ayudando a empresas de tecnología, retail y servicios financieros a encontrar y desarrollar el mejor talento.
+					</p>
+
+					<a href="talento.html"
+					   class="inline-block mt-8 bg-turquoise text-white px-8 py-4 rounded-lg font-bold hover:bg-teal-600 transition">
+						Únete a nuestro banco de talento →
+					</a>
+				</div>
+
+				<div>
+					<img
+						src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85"
+						alt="Equipo profesional colaborando en una reunión de trabajo"
+						class="rounded-2xl shadow-2xl w-full h-96 object-cover"
+					>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- SERVICIOS -->
+		<section id="servicios" class="py-24 bg-lightgray">
+			<div class="max-w-7xl mx-auto px-6">
+
+				<div class="text-center max-w-2xl mx-auto mb-16">
+					<span class="text-turquoise font-bold uppercase tracking-widest text-sm">
+						Lo que hacemos
+					</span>
+
+					<h2 class="text-3xl md:text-4xl font-extrabold text-navy mt-3">
+						Soluciones de talento para impulsar tu negocio
+					</h2>
+
+					<p class="mt-4 text-gray-600">
+						Acompañamos a las organizaciones en cada etapa de la gestión del talento.
+					</p>
+				</div>
+
+				<div class="grid md:grid-cols-3 gap-8">
+
+					<!-- Servicio 1 -->
+					<article class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition">
+						<div class="text-4xl mb-6" aria-hidden="true">🎯</div>
+
+						<h3 class="text-xl font-bold text-navy mb-4">
+							Headhunting Ejecutivo
+						</h3>
+
+						<p class="text-gray-600 leading-relaxed">
+							Encontramos a los profesionales que impulsan el crecimiento y la transformación de tu empresa.
+						</p>
+
+						<ul class="mt-6 space-y-3 text-gray-600">
+							<li>✓ Búsqueda de perfiles ejecutivos y mandos medios.</li>
+							<li>✓ Procesos personalizados.</li>
+							<li>✓ Garantía de reemplazo.</li>
+						</ul>
+					</article>
+
+					<!-- Servicio 2 -->
+					<article class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition">
+						<div class="text-4xl mb-6" aria-hidden="true">🤝</div>
+
+						<h3 class="text-xl font-bold text-navy mb-4">
+							Outsourcing de Atención al Cliente
+						</h3>
+
+						<p class="text-gray-600 leading-relaxed">
+							Creamos equipos especializados que ofrecen experiencias excepcionales a tus clientes.
+						</p>
+
+						<ul class="mt-6 space-y-3 text-gray-600">
+							<li>✓ Equipos para empresas tecnológicas.</li>
+							<li>✓ Formación continua.</li>
+							<li>✓ Supervisión dedicada.</li>
+						</ul>
+					</article>
+
+					<!-- Servicio 3 -->
+					<article class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition">
+						<div class="text-4xl mb-6" aria-hidden="true">📚</div>
+
+						<h3 class="text-xl font-bold text-navy mb-4">
+							Formación Corporativa
+						</h3>
+
+						<p class="text-gray-600 leading-relaxed">
+							Desarrollamos las habilidades que preparan a los equipos para los desafíos del futuro.
+						</p>
+
+						<ul class="mt-6 space-y-3 text-gray-600">
+							<li>✓ Programas de soft skills y liderazgo.</li>
+							<li>✓ Cursos presenciales y en línea.</li>
+							<li>✓ Formación adaptada a cada organización.</li>
+						</ul>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- POR QUÉ NEXOVA -->
+		<section id="nosotros" class="py-24">
+			<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+				<div>
+					<img
+						src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=85"
+						alt="Profesionales trabajando juntos alrededor de una mesa"
+						class="rounded-2xl shadow-lg w-full h-96 object-cover"
+					>
+				</div>
+
+				<div>
+					<span class="text-turquoise font-bold uppercase tracking-widest text-sm">
+						Nuestra experiencia
+					</span>
+
+					<h2 class="text-3xl md:text-4xl font-extrabold text-navy mt-3 mb-6">
+						¿Por qué elegir Nexova?
+					</h2>
+
+					<p class="text-gray-600 leading-relaxed mb-8">
+						Combinamos experiencia, conocimiento del mercado y una visión humana del talento para construir relaciones profesionales duraderas.
+					</p>
+
+					<div class="grid grid-cols-2 gap-8">
+
+						<div>
+							<p class="text-3xl font-extrabold text-turquoise">12 años</p>
+							<p class="text-gray-600 mt-2">De experiencia en el mercado latinoamericano.</p>
+						</div>
+
+						<div>
+							<p class="text-3xl font-extrabold text-turquoise">2 países</p>
+							<p class="text-gray-600 mt-2">Presencia regional en España y Estados Unidos.</p>
+						</div>
+
+						<div>
+							<p class="text-3xl font-extrabold text-turquoise">+500</p>
+							<p class="text-gray-600 mt-2">Procesos exitosos de selección completados.</p>
+						</div>
+
+						<div>
+							<p class="text-xl font-extrabold text-turquoise">Especialización</p>
+							<p class="text-gray-600 mt-2">Tecnología, retail y servicios financieros.</p>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- CONTACTO -->
+		<section id="contacto" class="py-24 bg-lightgray">
+			<div class="max-w-7xl mx-auto px-6 text-center">
+
+				<span class="text-turquoise font-bold uppercase tracking-widest text-sm">
+					Hablemos
+				</span>
+
+				<h2 class="text-3xl md:text-4xl font-extrabold text-navy mt-3">
+					Conectemos con tu próximo gran talento
+				</h2>
+
+				<p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+					Estamos aquí para ayudarte a construir equipos excepcionales.
+					Cuéntanos qué necesitas.
+				</p>
+
+				<a href="mailto:contacto@nexova.com"
+				   class="inline-block mt-8 bg-turquoise text-white px-8 py-4 rounded-lg font-bold hover:bg-teal-600 transition">
+					Escríbenos
+				</a>
+
+				<div class="grid md:grid-cols-2 gap-8 mt-16 text-left">
+
+					<div class="bg-white p-8 rounded-2xl shadow-sm">
+						<h3 class="text-xl font-bold text-navy mb-4">
+							Valencia, España
+						</h3>
+						<p class="text-gray-600">📍 Valencia, Comunidad Valenciana</p>
+						<p class="text-gray-600 mt-3">📞 +34 960 123 456</p>
+					</div>
+
+					<div class="bg-white p-8 rounded-2xl shadow-sm">
+						<h3 class="text-xl font-bold text-navy mb-4">
+							Miami, Estados Unidos
+						</h3>
+						<p class="text-gray-600">📍 Miami, Florida</p>
+						<p class="text-gray-600 mt-3">📞 +1 305 555 0191</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="bg-navy text-white py-10">
+		<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+
+			<a href="#inicio" class="text-2xl font-extrabold">
+				Nexova<span class="text-turquoise">.</span>
+			</a>
+
+			<p class="text-gray-300 text-sm text-center">
+				© 2025 Nexova. Todos los derechos reservados.
+			</p>
+
+			<div class="flex gap-6">
+				<a href="https://linkedin.com/company/nexova"
+				   target="_blank"
+				   rel="noopener noreferrer"
+				   class="text-gray-300 hover:text-turquoise">
+					LinkedIn
+				</a>
+
+				<a href="https://instagram.com/nexova"
+				   target="_blank"
+				   rel="noopener noreferrer"
+				   class="text-gray-300 hover:text-turquoise">
+					Instagram
+				</a>
+			</div>
+
+		</div>
+	</footer>
+
+</body>
+</html>
